@@ -1,6 +1,6 @@
 {
   "name": "react-tab-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,10 @@
     "download-git-repo": "^3.0.2",
     "inquirer": "^8.1.1",
     "ora": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cashon1120/react-tab-template"
   },
   "keywords": ["react-tab-cli", "react-cli", "react-tab", "react 标签", "标签页"]
 }
