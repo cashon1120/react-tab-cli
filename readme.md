@@ -7,5 +7,6 @@ npm install -g react-tab-cli
 拉取模板  
 react-tab-cli i <项目名称>  
 
+或去github下载 [模板地址](https://github.com/cashon1120/react-tab-template)  
 
-或去github下载 [模板地址](https://github.com/cashon1120/react-tab-template)
+[demo](http://120.48.9.247:83/)  

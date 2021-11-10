@@ -1,6 +1,6 @@
 {
   "name": "react-tab-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,5 @@
     "inquirer": "^8.1.1",
     "ora": "^5.4.1"
   },
-  "keywords": ["react-cli"]
+  "keywords": ["react-tab-cli", "react-cli", "react-tab", "react 标签", "标签页"]
 }
