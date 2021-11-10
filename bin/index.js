@@ -7,7 +7,6 @@ const commander = require('commander'); //命令行工具
 const inquirer = require('inquirer'); //命令行交互
 const checkDire = require('./utils/checkDire.js');
 const { exec } = require('child_process');
-const download = require("download-git-repo");
 const { version } = require('../package.json');
 const { promptTypeList } = require('../config');
 
@@ -23,8 +22,8 @@ commander.version(version, '-v, --version')
     await checkDire(path.join(process.cwd(),projectName),projectName);   // 检测创建项目文件夹是否存在
     inquirer.prompt(promptTypeList).then(result => { //inquirer 交互问答
       const {url, gitName, val} = result.type;
-      console.log("您选择的模版类型信息如下：" + val);
-      console.log('正在获取模板:' + url);
+      console.log("您选择的模版信息" + val);
+      console.log('正在获取模板 ' + url);
       if(!url){
         console.log(chalk.red(`${val} 该类型暂不支持...`));
         process.exit(1);
@@ -36,7 +35,6 @@ commander.version(version, '-v, --version')
           ));
           return;
         }
-        console.log(resolve(gitName), projectName)
         fs.rename(resolve(gitName), projectName, (err)=>{
           console.log(err)
           if (err) {

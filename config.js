@@ -5,11 +5,11 @@ module.exports  = {
       message: '请选择拉取的模版类型:',
       name: 'type',
       choices: [{
-        name: 'react-cli-template',
+        name: 'react-tab-template',
         value: {
-          url: 'git://github.com/cashon1120/react-cli-template.git',
-          gitName: 'react-cli-template',
-          val:'cashon react模板'
+          url: 'https://github.com/cashon1120/react-tab-template.git',
+          gitName: 'react-tab-template',
+          val:'react标签页模板'
         }
       }]
   }],
