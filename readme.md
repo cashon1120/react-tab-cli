@@ -8,11 +8,13 @@ npm install -g react-tab-cli
 拉取模板  
 react-tab-cli i <项目名称>
 
+或去 github 下载 [模板地址](https://github.com/cashon1120/react-tab-template)  
+[demo](http://120.48.9.247:83/)
+
 ## 主要实现的功能
 
 - 保留打开过的页面状态(其实就是显示或隐藏)
-- 已打开标签之间传参数,通信  
-[demo](http://120.48.9.247:83/)
+- 已打开标签之间传参数,通信
 
    <table>
         <tr>
@@ -69,7 +71,3 @@ react-tab-cli i <项目名称>
             <th>切换标签时不更新函数组件, 配合React.memo(), 作为第二个参数传入</th>
         </tr>
     </table>
-
-或去 github 下载 [模板地址](https://github.com/cashon1120/react-tab-template)
-
-[demo](http://120.48.9.247:83/)
