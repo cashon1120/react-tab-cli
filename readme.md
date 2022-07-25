@@ -9,11 +9,11 @@ npm install -g react-tab-cli
 react-tab-cli i <项目名称>
 
 或去 github 下载 [模板地址](https://github.com/cashon1120/react-tab-template)  
-[demo](http://120.48.9.247:83/)
+[demo](https://tab.hi515.cn/)
 
 ## 主要实现的功能
 
-- 保留打开过的页面状态(其实就是显示或隐藏)
+- 保留打开过的页面状态
 - 已打开标签之间传参数,通信
 
    <table>
